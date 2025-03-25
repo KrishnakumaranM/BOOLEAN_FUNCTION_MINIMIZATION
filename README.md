@@ -15,8 +15,6 @@ Hardware – PCs, Cyclone II , USB flasher
 **Software – Quartus prime**
 
 **Theory**
-![IMG_20250325_230433](https://github.com/user-attachments/assets/edc54231-dfbd-4af8-8c64-11b224938430)
-![IMG_20250325_230452](https://github.com/user-attachments/assets/19837a5b-09db-4be1-ae33-0581e0e35a1a)
 
 
 **Procedure**
@@ -55,6 +53,10 @@ output f2;
 assign f2= ((~y&z)|(w&z)|(x&y)|(w&y&~z));
 endmodule
 ```
+**TRUTH TABLE AND SYMBOL**
+![IMG_20250325_230433](https://github.com/user-attachments/assets/edc54231-dfbd-4af8-8c64-11b224938430)
+![IMG_20250325_230452](https://github.com/user-attachments/assets/19837a5b-09db-4be1-ae33-0581e0e35a1a)
+
 **RTL realization**
 EXP 2A
 ![Screenshot 2025-03-14 142551](https://github.com/user-attachments/assets/b1d1b319-6438-4305-b914-63dafe7f3c1a)
