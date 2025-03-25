@@ -15,7 +15,9 @@ Hardware – PCs, Cyclone II , USB flasher
 **Software – Quartus prime**
 
 **Theory**
-![DE WRITTEN ](https://github.com/user-attachments/assets/1e0f39c5-6e4a-4670-88f0-5607d8d0e540)
+![IMG_20250325_230433](https://github.com/user-attachments/assets/edc54231-dfbd-4af8-8c64-11b224938430)
+![IMG_20250325_230452](https://github.com/user-attachments/assets/19837a5b-09db-4be1-ae33-0581e0e35a1a)
+
 
 **Procedure**
 
@@ -38,22 +40,20 @@ Developed by: DEVA ABISHEK P
 RegisterNumber:212223110008
 ```
 ```
-**EXP 2A
-~~~
+EXP 2A
 module EXP2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
 endmodule
-~~~
-**EXP 2B
-~~~
+```
+```
+EXP 2B
 module EXP2B(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
 assign f2= ((~y&z)|(w&z)|(x&y)|(w&y&~z));
 endmodule
-~~~
 ```
 **RTL realization**
 EXP 2A
