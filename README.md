@@ -55,8 +55,11 @@ assign f2= ((~y&z)|(w&z)|(x&y)|(w&y&~z));
 endmodule
 ```
 **TRUTH TABLE AND SYMBOL**
-![IMG_20250325_230433](https://github.com/user-attachments/assets/edc54231-dfbd-4af8-8c64-11b224938430)
-![IMG_20250325_230452](https://github.com/user-attachments/assets/19837a5b-09db-4be1-ae33-0581e0e35a1a)
+![IMG_20250325_232534](https://github.com/user-attachments/assets/6c0132be-1b92-4823-a764-c536aaa565ea)
+![IMG_20250325_232550](https://github.com/user-attachments/assets/940efdfe-fba2-4b6a-a45f-fc9b03026a9d)
+![IMG_20250325_232353](https://github.com/user-attachments/assets/a9c37fda-db88-4cb7-bd8c-c73268c98daa)
+![IMG_20250325_232406](https://github.com/user-attachments/assets/9ead9c88-2090-422f-b502-ea7f7315d8d1)
+
 
 **RTL realization**
 EXP 2A
